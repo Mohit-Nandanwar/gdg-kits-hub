@@ -217,7 +217,7 @@ header {
 }
 
 .hero-title {
-    font-size: 3rem;
+   font-size: clamp(1.8rem, 4vw, 3rem);
     line-height: 1.2;
     margin-bottom: 1.5rem;
 }
@@ -234,6 +234,7 @@ header {
 
 .hero-btns {
     display: flex;
+    flex-wrap: wrap;   
     gap: 1rem;
 }
 
